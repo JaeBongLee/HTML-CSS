@@ -1,0 +1,289 @@
+body{
+	margin:0;
+	background: #e5e5e5;
+}
+
+/*Header area*/
+
+header{
+	float :left;
+	width: 100%;
+	position: relative;
+	height: 70px;
+	background-color: #f1f1f1;
+}
+#header-logo{
+	float: left;
+	position: absolute;
+	/*margin: 5px 10px 5px 15px;*/
+
+}
+
+#header-rightSide{
+	float: right;
+	position: relative;
+	width: 20%;
+	height: 50px;
+	background-color: #f1f1f1
+}
+
+#header-rightSide-siteMapButton{
+	left: 10%;
+	top:20%;
+	position: absolute;
+
+}
+.siteMap_button{
+	background:url(siteMapButton.png);
+	border: 0;
+	height: 30px;
+	width: 30px;
+}
+
+#header-rightSide-loginInfo{
+	position: absolute;
+	float: left;
+	left: 30%;
+	top : 20%;
+}
+.loginInfo_button{
+	width: 150px;
+	height: 40px;
+	float: right;
+	border: 0;
+	background:url(loginInfoButton.png);
+}
+
+#header-search{
+	position: absolute;
+	float: left;
+	left: 200px;
+	width: 60%;
+	height: 50px;
+	background-color: #f1f1f1
+	
+}
+
+#header-search-bar{
+	position: absolute;
+	left: 10%;
+	top:20%;
+	width: 100%;
+
+}
+.input_text{
+	width : 70%;
+	height: 25px;
+}
+#header-search-button{
+	position: absolute;
+	left: 80%;
+	top: 20%;
+
+}
+
+.search_button{
+	background:url(searchButton.png);
+	height: 32px;
+	width: 60px;
+	border: 0px;
+}
+
+
+/*Aside area*/
+
+aside{
+	width: 200px;
+	height: 240px;
+	float: left;
+	position: relative;
+	/*top : 60px;*/
+	background-color: #f3f3f3;
+	z-index: 1;
+}
+
+#aside-title{
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: #2d9fe7;
+	text-align:center;
+}
+.title-text{
+	font-size: 18px;
+	font-weight: 300;
+	left: 56px;
+	line-height: 20px;
+	vertical-align: middle;
+	width: 127px;
+	color: white;
+	font-size: 16pt;
+	margin: 20%;
+}
+
+#linkPlayStoreList{
+	position: absolute;
+	float: left;
+	height: 190px;
+	width: 10%;
+	background-color: white;
+	top:50px;
+}
+
+#aside-list{
+	position: absolute;
+	top:40px;
+	float: left;
+}
+.aside-list{
+	text-align: left;
+	font-size: 18px;
+	line-height: 20px;
+	
+}
+aside ul
+{
+	list-style-type: none;
+	width: 100%;
+	display: block;
+}
+
+
+aside li{
+	display: list-item;
+}
+
+
+aside a{
+	text-decoration: none;
+	display: block;
+	padding: 8px 12px 8px 0px;
+}
+aside a:visited{
+	color: black;
+}
+
+aside a:hover{
+	cursor: pointer;
+	background-color: #e6e6e6;
+}
+
+
+
+/*Nav Area*/
+
+#nav-wrap{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	top:50px;
+	z-index: 0;
+}
+#nav-genreButton{
+	position: absolute;
+	left: 230px;
+	padding: 0 14px;
+}
+#nav-button button{
+	outline: none;
+	background: none;
+	border: 0;
+	display: inline-block;
+	height: 50px;
+	font:bold;
+	font-size: 10pt;
+	
+}
+
+#nav-button{
+	position: absolute;
+	left: 250px;
+}
+
+
+nav a{
+	text-decoration: none;
+	display: block;
+	padding: 8px 12px 8px 0px;
+	color: #d1d1d1;
+}
+
+
+
+nav a:hover{
+	cursor: pointer;
+	background-color: #e6e6e6;
+}
+
+#help {
+	position: absolute;
+	float: right;
+	right: 100px;
+	margin: 10px;
+}
+
+#setting{
+	position: absolute;
+	float: right;
+	right: 0;
+	margin: 10px;
+
+}
+
+/*Section Area*/
+
+#sectionWrap{
+	float: right;
+	top:100px;
+	position: relative;
+	height: 500px;
+	width:80%;
+}
+.section-title{
+	height: 80px;
+	width: 100%;
+}
+
+.section-title-title{
+	font-size: 22pt;
+}
+
+.section-title-sub{
+	font-size: 11pt;
+}
+
+.section-title-more{
+	float: right;
+	font-size: 11pt;
+	color: white;
+	font-family: bold;
+	background-color: #2d9fe7;
+	border: 0;
+	margin-right: 10%;
+}
+.section-booksehlf-book-bookImg{
+	width: 200px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
