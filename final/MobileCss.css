@@ -1,0 +1,167 @@
+
+body{
+	margin: 0;
+	background-color: #e5e5e5;
+	position: relative;
+}
+
+.moveScreen
+{
+	position: relative;
+	z-index: 1;
+}
+
+.moveLeft
+{
+	position: absolute;
+	width : 40%;
+	height: 50px;
+	background-color: red;
+	margin-top: 20px;
+	margin-left:5%;
+}
+
+.moveRight
+{
+	position: absolute;
+	width : 40%;
+	height: 50px;
+	background-color: red;
+	right : 0px;
+	margin-top: 20px;
+	margin-right:5%;
+}
+
+#nav
+{
+	height: 50px;
+	background-color:white;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+
+}
+
+.navButton
+{
+	border: 0;
+	padding: 0;
+}
+
+#menuButton{
+	background:url(listButton.png);
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left:10px;
+	top:5px;
+}
+
+
+#logoImg{
+	background:url(LogoImgWhite.png);
+	height: 50px;
+	width: 180px;
+	position: absolute;
+	left: 70px;
+}
+
+#searchButton{
+	position: absolute;
+	background:url(searchButtonWhite.png);
+	height:30px;
+	width: 30px	;
+	left: 270px;
+	top:10px;
+}
+
+.section-wrap
+{
+	position: relative;
+	z-index: 1;
+	padding-top: 80px;
+}
+
+.section-title
+{
+	overflow: hidden;	
+}
+
+.section-title-title{
+	position: absolute;
+	margin-left: 5%;
+	font-size: 18pt;
+}
+
+.section-title-more{
+	font-size: 11pt;
+	color: white;
+	font-family: bold;
+	background-color: #2d9fe7;
+	border: 0;
+	margin-right: 10%;
+	float:right;
+}
+
+
+.section-bookShelf{
+	margin-top: 20px;
+	position: relative;
+	height: 250px;
+	overflow: hidden;
+	margin-left: -100%;
+}
+
+.section-bookShelf-bookSet
+{
+	float :left;
+	overflow: hidden;
+	width: 320px;
+}
+
+.section-bookShelf-book{
+	float: left;
+	background-color: #f3f3f3;
+	width: 150px;
+	height: 95%;
+	margin: 1%;
+}
+.section-bookShelf-book-image{
+	position: relative;
+}
+
+.bookImg{
+	width: 100%;
+	margin-top: 3%;
+}
+
+.section-bookShelf-book-info{
+	position: relative;
+	top:4%;
+	width: 100%;
+	height: 20%;
+	background-color: white;
+}
+
+.section-bookShelf-book-info-bookTitle{
+	height: 40%;
+	overflow: auto;
+}
+section a{
+	text-decoration: none;
+	overflow: hidden;
+}
+.section-bookShelf-book-info-author{
+	float: left;
+	font-size: 8pt;
+	color: gray;
+	width: 50%;
+}
+section a:visited{
+	text-decoration: none;
+	color: black;
+}
+#price{
+	color:#2d9fe7;
+	font-size: 9pt;
+}
